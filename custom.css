@@ -1,0 +1,29 @@
+img.card-img-top {
+    height: 200px;
+}
+
+.card {
+    border-radius: 20px;
+    width: 280px;
+    height: 370px;
+    -webkit-box-shadow: 1px 1px 7px 0px #BBB;
+    -moz-box-shadow: 1px 1px 7px 0px #BBB;
+    box-shadow: 1px 1px 7px 0px #BBB;
+}
+
+.card-img-top {
+	background: url("https://picsum.photos/300/200/");
+	background-position:center;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+} 
+.card-img-top:hover {  
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1); /* IE 9 */ 
+  transform: scale(1.1);
+} 
